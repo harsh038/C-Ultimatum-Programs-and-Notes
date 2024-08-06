@@ -5,6 +5,7 @@ int main() {
     int num , lastDigit;
     printf("Enter a Number : ");
     scanf("%d", &num);
+    
     lastDigit = num % 10;
     if (lastDigit%2==0)
     {
