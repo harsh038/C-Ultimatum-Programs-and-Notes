@@ -2,7 +2,7 @@
 
 int main()
 {
-    int a, b, c;
+    int a, b, c, secondLargest;
     printf("Enter the first number: ");
     scanf("%d", &a);
     printf("Enter the second number: ");
@@ -10,23 +10,33 @@ int main()
     printf("Enter the third number: ");
     scanf("%d", &c);
 
-    int largest, secondLargest;
     if (a >= b && a >= c)
     {
-        largest = a;
-        secondLargest = (b >= c) ? b : c;
+        if(b>=c){
+            secondLargest = b;
+        }
+        else{
+            secondLargest = c;
+        }
     }
     else if (b >= a && b >= c)
     {
-        largest = b;
-        secondLargest = (a >= c) ? a : c;
+        if(a>=c){
+            secondLargest = a;
+        }
+        else{
+            secondLargest = c;
+        }
     }
     else
     {
-        largest = c;
-        secondLargest = (a >= b) ? a : b;
+        if(a>=b){
+            secondLargest = a;
+        }
+        else{
+            secondLargest = b;
+        }
     }
-
     printf("%d is the Second largest number\n", secondLargest);
     return 0;
 }

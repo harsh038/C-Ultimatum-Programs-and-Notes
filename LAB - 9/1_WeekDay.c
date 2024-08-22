@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-int main()
+void main()
 {
     int day;
     printf("Enter a number (1-7): ");

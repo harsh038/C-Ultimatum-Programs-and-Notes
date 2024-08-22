@@ -10,11 +10,11 @@ int main()
     {
         bill = units * 0.5;
     }
-    else if (units <= 150)
+    else if (units > 50 && units <= 150)
     {
         bill = 50 * 0.5 + (units - 50) * 0.75;
     }
-    else if (units <= 250)
+    else if (units > 150 && units <= 250)
     {
         bill = 50 * 0.5 + 100 * 0.75 + (units - 150) * 1.20;
     }
