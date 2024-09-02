@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-int main()
+void main()
 {
     int a, b, c, secondLargest;
     printf("Enter the first number: ");
