@@ -1,50 +1,42 @@
 #include <stdio.h>
 
-int main() {
-    int n;
-    printf("Enter a number: ");
-    scanf("%d", &n);
-    switch (n)
+int main()
+{
+    int month, year, days;
+
+    printf("Enter month (1-12): ");
+    scanf("%d", &month);
+    printf("Enter year: ");
+    scanf("%d", &year);
+
+    int isLeapYear = (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0));
+
+    switch (month)
     {
     case 1:
-        printf("31 days (January)");
-        break;
-    case 2:
-        printf("29 days in a leap year (February)");
-        break;
     case 3:
-        printf("31 days (March)");
+    case 5:
+    case 7:
+    case 8:
+    case 10:
+    case 12:
+        days = 31;
         break;
     case 4:
-        printf("30 days (April)");
-        break;
-    case 5:
-        printf("31 days (May)");
-        break;
     case 6:
-        printf("30 days (June)");
-        break;
-    case 7:
-        printf("31 days (July)");
-        break;
-    case 8:
-        printf("31 days (August)");
-        break;
     case 9:
-        printf("30 days (September)");
-        break;
-    case 10:
-        printf("31 days (October)");
-        break;
     case 11:
-        printf("30 days (November)");
+        days = 30;
         break;
-    case 12:
-        printf("31 days (December)");
+    case 2:
+        days = isLeapYear ? 29 : 28;
         break;
     default:
-        printf("Month Not Found");
-        break;
+        printf("Invalid month.\n");
+        return 1;
     }
+
+    printf("Number of days: %d\n", days);
+
     return 0;
 }

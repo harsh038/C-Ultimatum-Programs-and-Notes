@@ -1,7 +1,6 @@
 // 03_ASMDUsingSwitch.c
 #include <stdio.h>
-
-int main()
+void main()
 {
     char sign;
     printf("Enter a Sign: ");
@@ -12,10 +11,10 @@ int main()
     switch (sign)
     {
     case '+':
-        printf("%d + %d = %d\n", a, b, a + b);
+        printf("%d",a + b);
         break;
     case '-':
-        printf("%d - %d = %d\n", a, b, a - b);
+        printf("%d",a - b);
         break;
     case '*':
         printf("%d * %d = %d\n", a, b, a * b);

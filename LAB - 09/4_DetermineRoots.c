@@ -32,7 +32,7 @@
 
     }
     // Step 1 : Input Cofficient a,b,c.
-    // Step 2 : Calculate the discriminant using formula : b^2-4ac
+    // Step 2 : Calculate th e discriminant using formula : b^2-4ac
     // Step 3 : Check the nature of discriminant
     // Step 4 : If discriminant > 0 then roots are real and distinct
                 // formula : root1 = (-b + sqrt(discriminant)) / (2*a);

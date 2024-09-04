@@ -1,9 +1,9 @@
 #include <stdio.h>
-
-int main() {
+void main() {
     int num;
     printf("Enter a number: ");
     scanf("%d", &num);
+    
     switch (num)
     {
     case 1:

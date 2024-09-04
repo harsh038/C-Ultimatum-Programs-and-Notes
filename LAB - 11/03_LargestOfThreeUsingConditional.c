@@ -3,12 +3,10 @@
 int main()
 {
     int a, b, c;
-    printf("Enter the first number: ");
-    scanf("%d", &a);
-    printf("Enter the second number: ");
-    scanf("%d", &b);
-    printf("Enter the third number: ");
-    scanf("%d", &c);
-    (a > b && a > c) ? printf("%d is max", a) : ((b > c && b > a) ? printf("%d is max", b) : printf("%d is max", c));
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    int largest = (a >= b && a >= c) ? a : (b >= c ? b : c);
+    printf("Largest number: %d\n", largest);
     return 0;
 }
