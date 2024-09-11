@@ -1,6 +1,6 @@
-# C-Ultimatum-Programs-and-Notes 🚀
+# C-Ultimatum-Programs-and-Notes
 
-Welcome to the **C-Ultimatum-Programs-and-Notes** repository! This repository contains a collection of C programming programs and notes designed to help you learn and master C programming concepts effectively. 📚💻
+Welcome to the **C-Ultimatum-Programs-and-Notes** repository! This repository contains a collection of C programming programs and notes designed to help you learn and master C programming concepts effectively.
 
 ## Introduction
 
