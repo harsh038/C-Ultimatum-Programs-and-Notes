@@ -54,3 +54,20 @@ To get started, clone the repository using:
 
 ```bash
 git clone https://github.com/harsh038/C-Ultimatum-Programs-and-Notes.git
+```
+
+Navigate to the directory:
+
+```bash
+cd C-Ultimatum-Programs-and-Notes
+```
+
+Explore the folders to view the notes and example programs.
+
+## Usage 📖
+
+Open the `.c` files in each folder to view example programs and comments that explain the concepts.
+
+## Contributing 🤝
+
+Contributions are welcome! Please submit a pull request or open an issue if you have suggestions for improvements.
